@@ -15,9 +15,9 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/db-sqlite": "latest",
-    "libsql": "^0.4.6",
     "@libsql/client": "^0.14.0",
+    "@payloadcms/db-postgres": "^3.2.2",
+    "@payloadcms/db-sqlite": "latest",
     "@payloadcms/next": "latest",
     "@payloadcms/payload-cloud": "latest",
     "@payloadcms/richtext-lexical": "latest",
@@ -26,6 +26,7 @@
     "@payloadcms/storage-vercel-blob": "^3.2.2",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
+    "libsql": "^0.4.6",
     "next": "15.0.0",
     "payload": "latest",
     "react": "19.0.0-rc-65a56d0e-20241020",
